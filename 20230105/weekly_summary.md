@@ -33,6 +33,15 @@ RuntimeError: DataLoader worker (pid 9833) is killed by signal: Killed.
 
 slurmstepd: error: Detected 1 oom-kill event(s) in StepId=36358.batch. Some of your processes may have been killed by the cgroup out-of-memory handler.
 ```
+
+· 随机数的生成
+```
+# 0~1均匀分布
+np.random.rand()
+
+# 标准正态分布
+np.random.randn()
+```
 修改方式，更换节点。
 ## 2. 论文阅读
 
