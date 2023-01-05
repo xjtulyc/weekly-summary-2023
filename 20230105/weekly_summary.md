@@ -18,9 +18,20 @@
 
 - ``DoI`` https://arxiv.org/abs/2210.06044
 - ``Github Repo`` https://github.com/fuying-wang/MGCA
-#### ``2.1.1. 概述``
+
+#### 2.1.1. 概述
 
 使用CLIP结构，学习和医学图像与诊断报告的共同表征。在病理区域级、实例级和疾病级三个层面，通过损失函数实现语义对齐。
 
 ![MGCA](fig/MGCA.png)
 
+### 2.2. Multi-modal Transformers Excel at Class-agnostic Object Detection
+
+- ``DoI`` https://dclibrary.mbzuai.ac.ae/cvfp/119/
+- ``Github Repo`` https://git.io/J1HPY
+
+#### 2.2.1. 概述
+
+使用自上而下的自然语言监督训练目标检测网络，在多个目标检测数据集上取得了SOTA结果。
+
+![MViTs](fig/MViTs.png)
