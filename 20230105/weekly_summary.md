@@ -12,6 +12,28 @@
 
 · 以[0.3, 0.4, 0.5, 0.6, 0.7]的概率随机选择静止帧训练模型，并比较性能
 
+### 1.3. Debug日志
+
+· torch.arange输入类别错误
+
+```
+TypeError: arange() received an invalid combination of arguments - got (float, int, device=Tensor, step=int, dtype=torch.dtype), but expected one of:
+ * (Number end, *, Tensor out, torch.dtype dtype, torch.layout layout, torch.device device, bool pin_memory, bool requires_grad)
+ * (Number start, Number end, Number step, *, Tensor out, torch.dtype dtype, torch.layout layout, torch.device device, bool pin_memory, bool requires_grad)
+```
+
+修改方式，在``anchor_generator.py``文件倒数第三行修改
+```
+self.grid_shifts(grid_sizes, features[0].device)
+```
+
+· Dataloader OOM
+```
+RuntimeError: DataLoader worker (pid 9833) is killed by signal: Killed. 
+
+slurmstepd: error: Detected 1 oom-kill event(s) in StepId=36358.batch. Some of your processes may have been killed by the cgroup out-of-memory handler.
+```
+修改方式，更换节点。
 ## 2. 论文阅读
 
 ### 2.1. Multi-Granularity Cross-modal Alignment for Generalized Medical Visual Representation Learning
