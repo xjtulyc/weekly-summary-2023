@@ -2,7 +2,7 @@
 
 ## 个人主页
 
-[youchengli.com](youchengli.com)
+https://youchengli.com
 
 ## 上传至Github
 
