@@ -4,7 +4,7 @@
 
 ### 1.1. 已完成
 
-· 使用最新的配置文件跑baseline
+· 使用最新的配置文件跑baseline（俞师兄指出这个配置有问题，下周已更正）
 ```
 --config-file configs/RDN-LSTM/BUS_BasicConfig_20221108_hardmining_fp_thresh0.6_by_video_rate0.7_fold0_iter_10w.yaml
 ```
@@ -33,6 +33,7 @@ RuntimeError: DataLoader worker (pid 9833) is killed by signal: Killed.
 
 slurmstepd: error: Detected 1 oom-kill event(s) in StepId=36358.batch. Some of your processes may have been killed by the cgroup out-of-memory handler.
 ```
+修改方式，更换节点。
 
 · 随机数的生成
 ```
@@ -42,7 +43,7 @@ np.random.rand()
 # 标准正态分布
 np.random.randn()
 ```
-修改方式，更换节点。
+
 ## 2. 论文阅读
 
 ### 2.1. Multi-Granularity Cross-modal Alignment for Generalized Medical Visual Representation Learning
