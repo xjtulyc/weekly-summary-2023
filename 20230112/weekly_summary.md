@@ -37,7 +37,7 @@ if len(sample_index_idx_base_rmstatic) > 30 and np.random.rand() > rate:  # 以r
 
 ### 1.2. 以一定概率放入静止帧训练
 
-· 以[**0.0**, **0.3**, **0.4**, **0.5**, 0.6, 0.7]的概率随机选择静止帧训练模型，并比较性能
+· 以[**0.0**, **0.3**, **0.4**, **0.5**, **0.6**, **0.7**]的概率随机选择静止帧训练模型，并比较性能
 
 joblog 36405 rate 0.0
 ```
@@ -73,6 +73,33 @@ joblog 36418 rate 0.3
 joblog rate 0.4
 
 joblog 36407 rate 0.5
+```
+[01/08 21:52:53 vid.evaluation.video_evaluation]: Evaluating mmdet-style AP on 'breast_ALL@20221108-145033' dataset
+[01/08 21:52:53 vid.evaluation.video_evaluation]: The fixed_recall is [0.7]
+[01/08 22:05:50 vid.evaluation.video_evaluation]: Calculating FP rate on 'breast_ALL@20221108-145033' dataset
+[01/08 22:05:50 vid.evaluation.video_evaluation]: Prob threshold is [0.8629564642906189]
+[01/08 22:15:44 vid.evaluation.video_evaluation]: Evaluating mmdet-style AP on 'breast_ALL@20221108-145033' dataset
+[01/08 22:32:06 vid.evaluation.video_evaluation]: >>> Dataset dicts temp file removed!
+[01/08 22:32:36 ultrasound_vid]: Evaluation results for breast_ALL@20221108-145033 in csv format:
+[01/08 22:32:36 d2.evaluation.testing]: copypaste: Task: Recall
+[01/08 22:32:36 d2.evaluation.testing]: copypaste: R@16
+[01/08 22:32:36 d2.evaluation.testing]: copypaste: 0.9747
+[01/08 22:32:36 d2.evaluation.testing]: copypaste: Task: Precision
+[01/08 22:32:36 d2.evaluation.testing]: copypaste: P@R0.7,multi_P@R0.7
+[01/08 22:32:36 d2.evaluation.testing]: copypaste: 0.9177,0.8383
+[01/08 22:32:36 d2.evaluation.testing]: copypaste: Task: Scale Precision
+[01/08 22:32:36 d2.evaluation.testing]: copypaste: P@R0.7_0,P@R0.7_1,P@R0.7_2,P@R0.7_3,P@R0.7_4
+[01/08 22:32:36 d2.evaluation.testing]: copypaste: 0.6513,0.8383,0.9046,0.9328,0.9537
+[01/08 22:32:36 d2.evaluation.testing]: copypaste: Task: Average Precision
+[01/08 22:32:36 d2.evaluation.testing]: copypaste: AP50,multi_AP50
+[01/08 22:32:36 d2.evaluation.testing]: copypaste: 0.8693,0.8018
+[01/08 22:32:36 d2.evaluation.testing]: copypaste: Task: Scale Average Precision
+[01/08 22:32:36 d2.evaluation.testing]: copypaste: AP50_0,AP50_1,AP50_2,AP50_3,AP50_4
+[01/08 22:32:36 d2.evaluation.testing]: copypaste: 0.7171,0.8156,0.8702,0.8869,0.9061
+[01/08 22:32:36 d2.evaluation.testing]: copypaste: Task: FP stat
+[01/08 22:32:36 d2.evaluation.testing]: copypaste: FP/min
+[01/08 22:32:36 d2.evaluation.testing]: copypaste: 0.7906
+```
 
 joblog rate 0.6
 
