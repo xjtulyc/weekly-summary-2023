@@ -139,4 +139,4 @@ joblog rate 0.7
 
 ### 4.2. 整理MICCIA22任务和数据集，看看值不值得做，是否开源；纯分类的任务可以放一下；**找好的Task**
 
-**用腾讯文档记录**
+[MACCIA2022 Paper Reading](https://github.com/xjtulyc/MACCIA2022_paper_reading)
