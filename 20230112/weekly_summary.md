@@ -131,3 +131,12 @@ joblog rate 0.7
 4. 问题背景、文献综述 2 min
 5. 数据集统计，可能或已经出现的问题分析 2min
 6. 工作安排 1 min
+
+## 4. 论文汇报
+### 4.1. MedKLIP: Medical Knowledge Enhanced Language-Image Pre-Training
+
+### 4.2. 整理MICCIA22任务和数据集，看看值不值得做，是否开源；纯分类的任务可以放一下；**找好的Task**
+
+按照task来分类
+
+| 名字 | task | dataset link | 
