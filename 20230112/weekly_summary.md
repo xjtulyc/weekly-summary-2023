@@ -135,8 +135,8 @@ joblog rate 0.7
 ## 4. 论文汇报
 ### 4.1. MedKLIP: Medical Knowledge Enhanced Language-Image Pre-Training
 
+总结：idea不错，用结构化文本降低学习病历文本的难度；但是实验做的不太好。
+
 ### 4.2. 整理MICCIA22任务和数据集，看看值不值得做，是否开源；纯分类的任务可以放一下；**找好的Task**
 
-按照task来分类
-
-| 名字 | task | dataset link | 
+**用腾讯文档记录**
