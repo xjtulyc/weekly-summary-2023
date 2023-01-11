@@ -70,7 +70,63 @@ joblog 36405 rate 0.0
 
 joblog 36418 rate 0.3
 
-joblog rate 0.4
+```
+[01/11 01:09:16 vid.evaluation.video_evaluation]: Evaluating mmdet-style AP on 'breast_ALL@20221108-145033' dataset
+[01/11 01:09:16 vid.evaluation.video_evaluation]: The fixed_recall is [0.7]
+[01/11 01:24:24 vid.evaluation.video_evaluation]: Calculating FP rate on 'breast_ALL@20221108-145033' dataset
+[01/11 01:24:24 vid.evaluation.video_evaluation]: Prob threshold is [0.8638185739517212]
+[01/11 01:33:50 vid.evaluation.video_evaluation]: Evaluating mmdet-style AP on 'breast_ALL@20221108-145033' dataset
+[01/11 01:50:06 vid.evaluation.video_evaluation]: >>> Dataset dicts temp file removed!
+[01/11 01:50:33 ultrasound_vid]: Evaluation results for breast_ALL@20221108-145033 in csv format:
+[01/11 01:50:33 d2.evaluation.testing]: copypaste: Task: Recall
+[01/11 01:50:33 d2.evaluation.testing]: copypaste: R@16
+[01/11 01:50:33 d2.evaluation.testing]: copypaste: 0.9733
+[01/11 01:50:33 d2.evaluation.testing]: copypaste: Task: Precision
+[01/11 01:50:33 d2.evaluation.testing]: copypaste: P@R0.7,multi_P@R0.7
+[01/11 01:50:33 d2.evaluation.testing]: copypaste: 0.9193,0.8380
+[01/11 01:50:33 d2.evaluation.testing]: copypaste: Task: Scale Precision
+[01/11 01:50:33 d2.evaluation.testing]: copypaste: P@R0.7_0,P@R0.7_1,P@R0.7_2,P@R0.7_3,P@R0.7_4
+[01/11 01:50:33 d2.evaluation.testing]: copypaste: 0.6437,0.8456,0.9054,0.9340,0.9561
+[01/11 01:50:33 d2.evaluation.testing]: copypaste: Task: Average Precision
+[01/11 01:50:33 d2.evaluation.testing]: copypaste: AP50,multi_AP50
+[01/11 01:50:33 d2.evaluation.testing]: copypaste: 0.8682,0.8090
+[01/11 01:50:33 d2.evaluation.testing]: copypaste: Task: Scale Average Precision
+[01/11 01:50:33 d2.evaluation.testing]: copypaste: AP50_0,AP50_1,AP50_2,AP50_3,AP50_4
+[01/11 01:50:33 d2.evaluation.testing]: copypaste: 0.7212,0.8162,0.8683,0.8861,0.9049
+[01/11 01:50:33 d2.evaluation.testing]: copypaste: Task: FP stat
+[01/11 01:50:33 d2.evaluation.testing]: copypaste: FP/min
+[01/11 01:50:33 d2.evaluation.testing]: copypaste: 0.7705
+```
+
+joblog 36429 rate 0.4
+
+```
+[01/11 05:50:17 vid.evaluation.video_evaluation]: Evaluating mmdet-style AP on 'breast_ALL@20221108-145033' dataset
+[01/11 05:50:17 vid.evaluation.video_evaluation]: The fixed_recall is [0.7]
+[01/11 06:02:08 vid.evaluation.video_evaluation]: Calculating FP rate on 'breast_ALL@20221108-145033' dataset
+[01/11 06:02:08 vid.evaluation.video_evaluation]: Prob threshold is [0.8671300768852235]
+[01/11 06:11:32 vid.evaluation.video_evaluation]: Evaluating mmdet-style AP on 'breast_ALL@20221108-145033' dataset
+[01/11 06:26:28 vid.evaluation.video_evaluation]: >>> Dataset dicts temp file removed!
+[01/11 06:26:54 ultrasound_vid]: Evaluation results for breast_ALL@20221108-145033 in csv format:
+[01/11 06:26:54 d2.evaluation.testing]: copypaste: Task: Recall
+[01/11 06:26:54 d2.evaluation.testing]: copypaste: R@16
+[01/11 06:26:54 d2.evaluation.testing]: copypaste: 0.9730
+[01/11 06:26:54 d2.evaluation.testing]: copypaste: Task: Precision
+[01/11 06:26:54 d2.evaluation.testing]: copypaste: P@R0.7,multi_P@R0.7
+[01/11 06:26:54 d2.evaluation.testing]: copypaste: 0.9207,0.8486
+[01/11 06:26:54 d2.evaluation.testing]: copypaste: Task: Scale Precision
+[01/11 06:26:54 d2.evaluation.testing]: copypaste: P@R0.7_0,P@R0.7_1,P@R0.7_2,P@R0.7_3,P@R0.7_4
+[01/11 06:26:54 d2.evaluation.testing]: copypaste: 0.6542,0.8419,0.9057,0.9390,0.9568
+[01/11 06:26:54 d2.evaluation.testing]: copypaste: Task: Average Precision
+[01/11 06:26:54 d2.evaluation.testing]: copypaste: AP50,multi_AP50
+[01/11 06:26:54 d2.evaluation.testing]: copypaste: 0.8700,0.8111
+[01/11 06:26:54 d2.evaluation.testing]: copypaste: Task: Scale Average Precision
+[01/11 06:26:54 d2.evaluation.testing]: copypaste: AP50_0,AP50_1,AP50_2,AP50_3,AP50_4
+[01/11 06:26:54 d2.evaluation.testing]: copypaste: 0.7222,0.8184,0.8705,0.8896,0.9058
+[01/11 06:26:54 d2.evaluation.testing]: copypaste: Task: FP stat
+[01/11 06:26:54 d2.evaluation.testing]: copypaste: FP/min
+[01/11 06:26:54 d2.evaluation.testing]: copypaste: 0.7374
+```
 
 joblog 36407 rate 0.5
 ```
@@ -122,7 +178,7 @@ joblog rate 0.7
 #### 3.2.1. 对指导教师下达的课题任务的学习与理解
 #### 3.2.2. 阅读文献资料进行调研的综述（10篇左右）
 #### 3.2.3. 根据任务书的任务及文献调研结果，初步拟定的执行（实施）方案（含具体进度计划）
-[开题报告初稿](https://github.com/xjtulyc/weekly-summary-2023/blob/main/20230112/file/%E5%BC%80%E9%A2%98%E6%8A%A5%E5%91%8A.pdf)
+[开题报告初稿（未完成）](https://github.com/xjtulyc/weekly-summary-2023/blob/main/20230112/file/%E5%BC%80%E9%A2%98%E6%8A%A5%E5%91%8A.pdf)
 
 ### 3.3. 开题PPT
 1. 搞懂代码
