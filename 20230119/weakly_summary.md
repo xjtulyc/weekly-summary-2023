@@ -7,13 +7,15 @@
 
 #### 1.1.1. 20230112实验结果分析
 
+``在不同split来验证是否有效``
+
 根据上周的实验结果，如下图所示。
 
 ![实验结果](file\experiment_20230112.png)
 
 以0.4概率移除静止帧在大多数指标更好。初步认为是训练的时候给的样例更加明确（有bbox，而且展示的更慢），效果会更好。即加入了简单样本后会提升，但是简单样本不是越多越好。
 
-之前师兄做的实验结论
+之前db师兄做的实验结论
 
 ```
 1. 训练rm_static_rate=1.0，测试rm_static_rate=1.0
@@ -46,6 +48,12 @@
 [video panoptic segmentation](https://paperswithcode.com/paper/video-panoptic-segmentation-1)
 
 [video instance segmentation](https://paperswithcode.com/task/video-instance-segmentation)
+
+### 2.2. 使用了memory的工作
+
+|题目|期刊/会议|任务|机制|
+|:---|:---:|:---:|---:|
+|[XMem: Long-Term Video Object Segmentation with an Atkinson-Shiffrin Memory Model](https://paperswithcode.com/paper/xmem-long-term-video-object-segmentation-with)|ECCV22|video object segmentation|使用Atkinson-Shiffrin Memory Model，将memory分割为感知记忆、工作记忆和长期记忆三种模块|
 
 ## 2. 论文阅读
 
