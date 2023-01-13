@@ -93,4 +93,5 @@
 
 ## 3. 人工智能芯片设计导论大作业
 
-[作业要求]()
+[作业要求](https://github.com/xjtulyc/weekly-summary-2023/blob/main/20230119/file/1\)%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E8%8A%AF%E7%89%87%E8%AE%BE%E8%AE%A1%E5%AF%BC%E8%AE%BA%E8%AF%BE%E7%A8%8B%E4%BD%9C%E4%B8%9A.pdf)：
+- 课程大作业截止日期3月31日（我测，怎么这么难）
