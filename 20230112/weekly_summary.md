@@ -157,9 +157,63 @@ joblog 36407 rate 0.5
 [01/08 22:32:36 d2.evaluation.testing]: copypaste: 0.7906
 ```
 
-joblog rate 0.6
+joblog 36466 rate 0.6
+```
+[01/13 08:32:48 vid.evaluation.video_evaluation]: Evaluating mmdet-style AP on 'breast_ALL@20221108-145033' dataset
+[01/13 08:32:48 vid.evaluation.video_evaluation]: The fixed_recall is [0.7]
+[01/13 08:44:41 vid.evaluation.video_evaluation]: Calculating FP rate on 'breast_ALL@20221108-145033' dataset
+[01/13 08:44:41 vid.evaluation.video_evaluation]: Prob threshold is [0.8508420825004579]
+[01/13 08:54:31 vid.evaluation.video_evaluation]: Evaluating mmdet-style AP on 'breast_ALL@20221108-145033' dataset
+[01/13 09:10:25 vid.evaluation.video_evaluation]: >>> Dataset dicts temp file removed!
+[01/13 09:10:51 ultrasound_vid]: Evaluation results for breast_ALL@20221108-145033 in csv format:
+[01/13 09:10:51 d2.evaluation.testing]: copypaste: Task: Recall
+[01/13 09:10:51 d2.evaluation.testing]: copypaste: R@16
+[01/13 09:10:51 d2.evaluation.testing]: copypaste: 0.9727
+[01/13 09:10:51 d2.evaluation.testing]: copypaste: Task: Precision
+[01/13 09:10:51 d2.evaluation.testing]: copypaste: P@R0.7,multi_P@R0.7
+[01/13 09:10:51 d2.evaluation.testing]: copypaste: 0.9163,0.8285
+[01/13 09:10:51 d2.evaluation.testing]: copypaste: Task: Scale Precision
+[01/13 09:10:51 d2.evaluation.testing]: copypaste: P@R0.7_0,P@R0.7_1,P@R0.7_2,P@R0.7_3,P@R0.7_4
+[01/13 09:10:51 d2.evaluation.testing]: copypaste: 0.6288,0.8383,0.9005,0.9337,0.9545
+[01/13 09:10:51 d2.evaluation.testing]: copypaste: Task: Average Precision
+[01/13 09:10:51 d2.evaluation.testing]: copypaste: AP50,multi_AP50
+[01/13 09:10:51 d2.evaluation.testing]: copypaste: 0.8676,0.8004
+[01/13 09:10:51 d2.evaluation.testing]: copypaste: Task: Scale Average Precision
+[01/13 09:10:51 d2.evaluation.testing]: copypaste: AP50_0,AP50_1,AP50_2,AP50_3,AP50_4
+[01/13 09:10:51 d2.evaluation.testing]: copypaste: 0.7125,0.8141,0.8678,0.8901,0.9034
+[01/13 09:10:51 d2.evaluation.testing]: copypaste: Task: FP stat
+[01/13 09:10:51 d2.evaluation.testing]: copypaste: FP/min
+[01/13 09:10:51 d2.evaluation.testing]: copypaste: 0.8390
+```
 
-joblog rate 0.7
+joblog 36467 rate 0.7
+```
+[01/13 13:24:10 vid.evaluation.video_evaluation]: Evaluating mmdet-style AP on 'breast_ALL@20221108-145033' dataset
+[01/13 13:24:10 vid.evaluation.video_evaluation]: The fixed_recall is [0.7]
+[01/13 13:35:59 vid.evaluation.video_evaluation]: Calculating FP rate on 'breast_ALL@20221108-145033' dataset
+[01/13 13:35:59 vid.evaluation.video_evaluation]: Prob threshold is [0.8595068097114563]
+[01/13 13:46:07 vid.evaluation.video_evaluation]: Evaluating mmdet-style AP on 'breast_ALL@20221108-145033' dataset
+[01/13 14:02:28 vid.evaluation.video_evaluation]: >>> Dataset dicts temp file removed!
+[01/13 14:02:51 ultrasound_vid]: Evaluation results for breast_ALL@20221108-145033 in csv format:
+[01/13 14:02:51 d2.evaluation.testing]: copypaste: Task: Recall
+[01/13 14:02:51 d2.evaluation.testing]: copypaste: R@16
+[01/13 14:02:51 d2.evaluation.testing]: copypaste: 0.9735
+[01/13 14:02:51 d2.evaluation.testing]: copypaste: Task: Precision
+[01/13 14:02:51 d2.evaluation.testing]: copypaste: P@R0.7,multi_P@R0.7
+[01/13 14:02:51 d2.evaluation.testing]: copypaste: 0.9172,0.8320
+[01/13 14:02:51 d2.evaluation.testing]: copypaste: Task: Scale Precision
+[01/13 14:02:51 d2.evaluation.testing]: copypaste: P@R0.7_0,P@R0.7_1,P@R0.7_2,P@R0.7_3,P@R0.7_4
+[01/13 14:02:51 d2.evaluation.testing]: copypaste: 0.6327,0.8366,0.9042,0.9346,0.9557
+[01/13 14:02:51 d2.evaluation.testing]: copypaste: Task: Average Precision
+[01/13 14:02:51 d2.evaluation.testing]: copypaste: AP50,multi_AP50
+[01/13 14:02:51 d2.evaluation.testing]: copypaste: 0.8685,0.8034
+[01/13 14:02:51 d2.evaluation.testing]: copypaste: Task: Scale Average Precision
+[01/13 14:02:51 d2.evaluation.testing]: copypaste: AP50_0,AP50_1,AP50_2,AP50_3,AP50_4
+[01/13 14:02:51 d2.evaluation.testing]: copypaste: 0.7135,0.8113,0.8708,0.8895,0.9054
+[01/13 14:02:51 d2.evaluation.testing]: copypaste: Task: FP stat
+[01/13 14:02:51 d2.evaluation.testing]: copypaste: FP/min
+[01/13 14:02:51 d2.evaluation.testing]: copypaste: 0.8000
+```
 
 ### 1.3. 衡量静止帧训练程度的评价指标
 
@@ -172,7 +226,7 @@ joblog rate 0.7
 ## 3. 毕业设计
 
 ### 3.1. 开题答辩
-时间未知
+开学一两周
 
 ### 3.2. 开题报告
 #### 3.2.1. 对指导教师下达的课题任务的学习与理解
