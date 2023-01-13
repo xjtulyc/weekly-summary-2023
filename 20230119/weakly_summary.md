@@ -87,6 +87,10 @@
 </center>
 
 
-## 2.2. MICCAI22 Part III Colonoscopy部分
+### 2.2. MICCAI22 Part III Colonoscopy部分
 
 [MICCAI 2022 Part III Colonoscopy](https://github.com/xjtulyc/MICCAI2022_paper_reading/blob/main/Part%20III/notes.md)
+
+## 3. 人工智能芯片设计导论大作业
+
+[作业要求]()
