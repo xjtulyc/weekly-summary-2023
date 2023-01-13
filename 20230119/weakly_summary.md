@@ -94,4 +94,34 @@
 ## 3. 人工智能芯片设计导论大作业
 
 [作业要求](https://github.com/xjtulyc/weekly-summary-2023/blob/main/20230119/file/1\)%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E8%8A%AF%E7%89%87%E8%AE%BE%E8%AE%A1%E5%AF%BC%E8%AE%BA%E8%AF%BE%E7%A8%8B%E4%BD%9C%E4%B8%9A.pdf)：
-- 课程大作业截止日期3月31日（我测，怎么这么难）
+- 课程大作业截止日期3月31日
+
+进度控制：
+- 复习课程PPT 2023-01-14 to 2023-01-31
+- 作业I 2023-02-01 to 2023-02-28
+- 作业II 2023-03-01 to 2023-03-31
+
+### 3.1. PPT
+<p style="text-indent:24.1pt"><span style="font-size:14px">秋季课程《人工智能芯片设计导论》（2021- ）</span></p>
+
+<p style="text-indent:24.1pt"><span style="font-size:14px"><span style="font-size: 14px;">指导教师：任鹏举、赵文哲、夏天</span></span></p>
+
+<p style="text-indent:24.1pt"><a href="/documents/1796039/0/01-intro-2022-AI+Chip.pdf/244e0f1c-08b0-42e2-a75f-715f0bca113d?t=1665317459616"><span style="font-size: 14px;"><strong>01-Intro </strong></span></a><span style="font-size: 14px;"><strong>【</strong></span><span style="font-size: 14px;"><strong>Updated 2022.10.09】</strong></span></p>
+
+<p style="text-indent:24.1pt"><a href="/documents/1796039/0/02-Data+Stream+App+and+Various+Architectures-2022+AI+Chip.pdf/f511d58e-5bce-3f56-941c-6161a82c8fec?t=1665317535221"><span style="font-size: 14px;"><strong>02-Data Stream App and Various Architectures</strong></span></a>&nbsp;<span style="font-size: 14px;"><strong>【</strong></span><span style="font-size: 14px;"><strong>Updated 2022.10.09】</strong></span></p>
+
+<p style="text-indent:24.1pt"><a href="/documents/1796039/0/03-Graphical+Representations-2022+AI+Chip.pdf/bc33a5d8-e8ec-6945-173f-a9de42651293?t=1665317567532"><span style="font-size: 14px;"><strong>03-Graphical Representations</strong></span></a>&nbsp;<span style="font-size: 14px;"><span style="font-size: 14px;"><strong>【</strong></span><strong>Updated 2022.10.09】</strong></span></p>
+
+<p style="text-indent:24.1pt"><a href="/documents/1796039/0/04-Iteration+Bound-2022+AI+Chip.pdf/db87a0cd-382c-9b93-951e-99dd83200ed8?t=1665317583069"><span style="font-size: 14px;"><strong>04-Iteration Bound</strong></span></a>&nbsp;<span style="font-size: 14px;"><span style="font-size: 14px;"><strong>【</strong></span><strong>Updated 2022.10.09】</strong></span></p>
+
+<p style="text-indent:24.1pt"><a href="/documents/1796039/0/05-Retiming+and+Pipelining-2022+AI+Chip.pdf/6c4196dd-b6c5-52f0-787a-f0784b066b9f?t=1665317601086"><span style="font-size: 14px;"><strong>05-Retiming and Pipelining</strong></span></a>&nbsp;<span style="font-size: 14px;"><strong>【</strong></span><span style="font-size: 14px;"><strong>Updated 2022.10.09】</strong></span></p>
+
+<p style="text-indent:24.1pt"><span style="font-size: 14px;"><strong><a href="/documents/1796039/0/06-Parallel+Architecture+%28Unfolding%29-2022+AI+Chip.pdf/2400d1e5-26ea-b008-29ac-029a803e7ff8?t=1667513426580">06-Parallel Architecture (Unfolding) </a></strong><span style="font-size: 14px;"><strong>【</strong></span><strong>Updated 2022.11.04</strong><span style="font-size: 14px;"><strong>】</strong></span></span></p>
+
+<p style="text-indent:24.1pt"><span style="font-size: 14px;"><strong><a href="/documents/1796039/0/07-Resource+Sharing+%28Folding%29-2022+AI+Chip.pdf/afd607cd-29cc-c2a1-5f39-8266531e28bf?t=1667513450208">07-Resource Sharing (Folding)</a> </strong><span style="font-size: 14px;"><strong>【</strong></span><strong>Updated 2022.11.04</strong><span style="font-size: 14px;"><strong>】</strong></span></span></p>
+
+<p style="text-indent:24.1pt"><span style="font-size: 14px;"><strong><a href="/documents/1796039/0/08-Scheduling+and+Resource+Allocation+-2022+AI+Chip.pdf/42bb72f1-fc89-54ac-c666-7fb92a72fe3c?t=1667513468344">08-Scheduling and Resource Allocation</a> </strong><span style="font-size: 14px;"><strong>【</strong></span><strong>Updated 2022.11.04</strong><span style="font-size: 14px;"><strong>】</strong></span></span></p>
+
+<p style="text-indent:24.1pt"><span style="font-size: 14px;"><strong><a href="/documents/1796039/0/09-Systolic+Array-2022+AI+Chip.pdf/43cf86d0-367d-c3ec-6fe4-e3651c095291?t=1667513482765">09-Systolic Array</a> </strong><span style="font-size: 14px;"><strong>【</strong></span><strong>Updated 2022.11.04</strong><span style="font-size: 14px;"><strong>】</strong></span></span></p>
+
+<p style="text-indent:24.1pt">&nbsp;</p>
