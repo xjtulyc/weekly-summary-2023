@@ -11,7 +11,17 @@
 
 根据上周的实验结果，如下图所示。
 
-![实验结果](file\experiment_20230112.png)
+<center>
+    <img style="border-radius: 0.3125em;
+    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
+    src="file\experiment_20230112.png">
+    <br>
+    <div style="color:orange; border-bottom: 1px solid #d9d9d9;
+    display: inline-block;
+    color: #999;
+    padding: 2px;">实验结果</div>
+</center>
+
 
 以0.4概率移除静止帧在大多数指标更好。初步认为是训练的时候给的样例更加明确（有bbox，而且展示的更慢），效果会更好。即加入了简单样本后会提升，但是简单样本不是越多越好。
 
