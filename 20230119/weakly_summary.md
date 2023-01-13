@@ -69,6 +69,24 @@
 
 ### 2.1. CLIP-Driven Universal Model for Organ Segmentation and Tumor Detection
 
+[GitHub Repo](https://github.com/ljwztc/CLIP-Driven-Universal-Model)
+
+[Paper-Jan 2](https://arxiv.org/abs/2301.00785)
+
+``简介`` 在多个部位的癌症数据集上学习；CLIP。
+
+<center>
+    <img style="border-radius: 0.3125em;
+    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
+    src="file\clip_driven_universal_model.png">
+    <br>
+    <div style="color:orange; border-bottom: 1px solid #d9d9d9;
+    display: inline-block;
+    color: #999;
+    padding: 2px;">CILP-Driven Universal Model</div>
+</center>
+
+
 ## 2.2. MICCAI22 Part III Colonoscopy部分
 
 [MICCAI 2022 Part III Colonoscopy](https://github.com/xjtulyc/MICCAI2022_paper_reading/blob/main/Part%20III/notes.md)
