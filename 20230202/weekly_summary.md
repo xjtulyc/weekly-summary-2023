@@ -118,7 +118,15 @@ export TUS_PROCESSED_DATA=""
 
 详情参考[每日论文笔记](https://github.com/xjtulyc/daily-paper-reading2023)
 
+## 大作业
+1. 复习了课程内容；
+2. 用Verilog写了第一题的代码；
+3. 推导了第二题的公式（下周检查一下，没问题编程看看）。
+
 
 ## 下周工作
 
-1. 检查错误例原因
+1. 检查错误例原因，为什么在一些分块上表现不好；
+2. 在TUS数据集上搜索``remove_static_frame_rate``对实验结果的影响。
+3. 在静止帧上检查BUS和TUS数据集上性能比较好的参数的效果；
+
