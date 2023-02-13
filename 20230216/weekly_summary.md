@@ -44,3 +44,7 @@ to-do list
 ### 1.2. 在TUS数据集上搜索参数的影响
 
 ### 1.3. 在静止帧上检查
+
+## 2. Ultrasound-VID项目学习笔记
+
+[Repo](https://github.com/xjtulyc/ultrasound_vid_docs)
