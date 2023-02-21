@@ -30,3 +30,5 @@ import torch.utils.cpp_extension
 torch.utils.cpp_extension.CUDA_HOME        #输出 Pytorch 运行时使用的 cuda 
 ```
 
+2. 服务器使用
+
