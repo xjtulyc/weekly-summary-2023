@@ -32,3 +32,13 @@ torch.utils.cpp_extension.CUDA_HOME        #输出 Pytorch 运行时使用的 cu
 
 2. 服务器使用
 
+[集群使用说明](file/集群使用说明.pdf)
+
+[VPN](file/windows使用vpn教程.docx)（目前gitlab也需要VPN）
+
+3. CMD上传文件到服务器指定路径
+
+```shell
+scp -r {file} username@ip:{filepath}
+```
+
