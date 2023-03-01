@@ -7,6 +7,10 @@
 
 ## 1. TUS静止帧（5w代）
 
+<details>
+
+<summary>详细实验结果</summary>
+
 **RM Static Rate = 0.0**
 
 |Split|AP50|P@0.7|FP|R@16|#Video|
@@ -48,3 +52,9 @@
 | Dynamic | 85.59 | 91.44 | 2.3128 | 96.22 |  909   |
 | Static | 93.42 | 99.31 | 0.2471 | 96.22 |  909   |
 | All | 91.33 | 98.36 | 0.5553 | 96.22 |  909   |
+
+</details>
+
+## 2. MICCAI2023
+
+- [x] Related Work
